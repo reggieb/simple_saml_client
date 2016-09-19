@@ -19,3 +19,8 @@ gem 'jquery-rails'
 gem 'devise', '~> 3.5' # Using 3.5 as later version require Ruby 2.1.0
 gem 'omniauth-saml'
 
+group :development do
+  # Debugging console
+  gem 'pry'
+end
+
