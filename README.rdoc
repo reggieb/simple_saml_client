@@ -1,28 +1,14 @@
-== README
+== Simple Saml Client
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I am using this app as a platform to learn how to use
+{omniauth/omniauth-saml}[https://github.com/omniauth/omniauth-saml]
+to authenticate users with a SAML Identity Provider.
 
-Things you may want to cover:
+So feel free to look, but some of the code will be specific to
+my fumbling-about-playground environment.
 
-* Ruby version
+Also note - in my playground I'm running this app at port 3001
 
-* System dependencies
+    rails s -p 3001
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+And my IdP apps at port 3000.
