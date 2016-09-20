@@ -5,6 +5,6 @@ class User < ActiveRecord::Base
          :omniauthable, omniauth_providers: [:saml]
 
   def self.from_omniauth(auth)
-    find_or_initialize_by(pid: auth.uid)
+    find_or_initialize_by(pid: auth.uid.try(:strip))
   end
 end
